@@ -1,0 +1,13 @@
+<gapi-parser-input>
+  <api filename="gnomedesktop-api.raw">
+    <library name="gnome-desktop-2">
+      <namespace name="Gnome">
+        <directory path="gnome-desktop-2.32.1/libgnome-desktop" >
+          <exclude>edid.h</exclude>
+        </directory>
+        <directory path="gnome-desktop-2.32.1/libgnome-desktop/libgnome" />
+        <directory path="gnome-desktop-2.32.1/libgnome-desktop/libgnomeui" />
+      </namespace>
+    </library>
+  </api>
+</gapi-parser-input>
