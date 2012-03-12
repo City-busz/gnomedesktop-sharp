@@ -1,0 +1,8 @@
+With this code, you can generate updated mono bindings for 
+libgnome-desktop 2. It's based on the gnome-desktop-sharp project. It's 
+useful for mono apps that want to get rid of the 
+deprecated gnome-sharp dependency, and use the new 
+DesktopThumbnailFactory API proivded by recent libgnome-desktop 
+releases.
+
+To generate the C# source, simply run the ./generate.sh command.
